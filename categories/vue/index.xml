@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Vue on </title>
-        <link>http://www.shentongtong.cn/categories/vue/</link>
+        <link>https://teair.github.io/site/categories/vue/</link>
         <description>Recent content in Vue on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 27 May 2024 16:30:00 +0800</lastBuildDate><atom:link href="http://www.shentongtong.cn/categories/vue/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 27 May 2024 16:30:00 +0800</lastBuildDate><atom:link href="https://teair.github.io/site/categories/vue/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Vue基础（五）</title>
-        <link>http://www.shentongtong.cn/vue-5/</link>
+        <link>https://teair.github.io/site/vue-5/</link>
         <pubDate>Mon, 27 May 2024 16:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/vue-5/</guid>
-        <description>&lt;img src="http://www.shentongtong.cn/vue-5/img/logo/vue.png" alt="Featured image of post Vue基础（五）" /&gt;&lt;h2 id=&#34;模板引用&#34;&gt;模板引用&lt;/h2&gt;
+        <guid>https://teair.github.io/site/vue-5/</guid>
+        <description>&lt;img src="https://teair.github.io/site/vue-5/img/logo/vue.png" alt="Featured image of post Vue基础（五）" /&gt;&lt;h2 id=&#34;模板引用&#34;&gt;模板引用&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;ref&lt;/code&gt;  属性 适用于 直接访问底层 DOM 元素 的 场景&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ref&lt;/code&gt; 与 &lt;code&gt;v-for&lt;/code&gt; 中的 key 类似【唯一】，它允许我们在一个特定的 DOM 元素 或 子组件 实例 被 挂载后 获得 对它的直接引用，比如 在 组件挂载时 将 焦点 设置到一个  input 元素上，或 在一个元素上 初始化 一个 第三方库。&lt;/p&gt;
 &lt;h3 id=&#34;访问模板引用&#34;&gt;访问模板引用&lt;/h3&gt;
@@ -51,10 +51,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;ul&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-5/img/vue-template-quote.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-5/img/vue-template-quote.jpg&#34;
 	width=&#34;981&#34;
 	height=&#34;367&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-5/img/vue-template-quote_huad7399a2a3731a76105440b941c79b18_15604_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-5/img/vue-template-quote_huad7399a2a3731a76105440b941c79b18_15604_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-5/img/vue-template-quote_huad7399a2a3731a76105440b941c79b18_15604_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-5/img/vue-template-quote_huad7399a2a3731a76105440b941c79b18_15604_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;模板引用&#34;
@@ -88,10 +88,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        请输入年龄：&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;:ref&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;&amp;#34;(age) =&amp;gt; { this.age = age }&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-5/img/vue-template-closure.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-5/img/vue-template-closure.jpg&#34;
 	width=&#34;1069&#34;
 	height=&#34;336&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-5/img/vue-template-closure_hud27c7345f2e93cadd5220f5e4156c1aa_16130_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-5/img/vue-template-closure_hud27c7345f2e93cadd5220f5e4156c1aa_16130_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-5/img/vue-template-closure_hud27c7345f2e93cadd5220f5e4156c1aa_16130_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-5/img/vue-template-closure_hud27c7345f2e93cadd5220f5e4156c1aa_16130_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Template Closure&#34;
@@ -241,10 +241,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff6ac1&#34;&gt;color&lt;/span&gt;:&lt;span style=&#34;color:#ff6ac1&#34;&gt;pink&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-props.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-props.jpg&#34;
 	width=&#34;772&#34;
 	height=&#34;262&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-props_huc56e23ee5cc87bc44f15232d64fdcd56_5502_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-5/img/vue-component-props_huc56e23ee5cc87bc44f15232d64fdcd56_5502_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-props_huc56e23ee5cc87bc44f15232d64fdcd56_5502_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-5/img/vue-component-props_huc56e23ee5cc87bc44f15232d64fdcd56_5502_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Component Props&#34;
@@ -331,10 +331,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;h2&lt;/span&gt;&amp;gt; 通过 插槽 向 子组件 传递 html 内容： &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;h2&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;slot&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-slot.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-slot.jpg&#34;
 	width=&#34;830&#34;
 	height=&#34;185&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-slot_hueb7855df195dd6d8c26a3732ce46ea62_9438_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-5/img/vue-component-slot_hueb7855df195dd6d8c26a3732ce46ea62_9438_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-slot_hueb7855df195dd6d8c26a3732ce46ea62_9438_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-5/img/vue-component-slot_hueb7855df195dd6d8c26a3732ce46ea62_9438_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Component Slot&#34;
@@ -466,10 +466,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;h2&lt;/span&gt;&amp;gt; 通过 插槽 向 子组件 传递 html 内容： &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;h2&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;slot&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-dynamic-props.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-dynamic-props.jpg&#34;
 	width=&#34;481&#34;
 	height=&#34;353&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-dynamic-props_hu2249585a85cccb574144d6bdebb0b57e_10840_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-5/img/vue-component-dynamic-props_hu2249585a85cccb574144d6bdebb0b57e_10840_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-dynamic-props_hu2249585a85cccb574144d6bdebb0b57e_10840_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-5/img/vue-component-dynamic-props_hu2249585a85cccb574144d6bdebb0b57e_10840_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Component Dynamic Props&#34;
@@ -480,10 +480,10 @@
 		data-flex-basis=&#34;327px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-dynamic-slot.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-dynamic-slot.jpg&#34;
 	width=&#34;714&#34;
 	height=&#34;284&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-5/img/vue-component-dynamic-slot_hu195b95879e60dd1c4997dd685bbc5d65_12570_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-5/img/vue-component-dynamic-slot_hu195b95879e60dd1c4997dd685bbc5d65_12570_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-5/img/vue-component-dynamic-slot_hu195b95879e60dd1c4997dd685bbc5d65_12570_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-5/img/vue-component-dynamic-slot_hu195b95879e60dd1c4997dd685bbc5d65_12570_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Component Dynamic Slot&#34;
@@ -551,11 +551,11 @@
         </item>
         <item>
         <title>Vue基础（四）</title>
-        <link>http://www.shentongtong.cn/vue-4/</link>
+        <link>https://teair.github.io/site/vue-4/</link>
         <pubDate>Mon, 27 May 2024 15:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/vue-4/</guid>
-        <description>&lt;img src="http://www.shentongtong.cn/vue-4/img/logo/vue.png" alt="Featured image of post Vue基础（四）" /&gt;&lt;h2 id=&#34;生命周期&#34;&gt;生命周期&lt;/h2&gt;
+        <guid>https://teair.github.io/site/vue-4/</guid>
+        <description>&lt;img src="https://teair.github.io/site/vue-4/img/logo/vue.png" alt="Featured image of post Vue基础（四）" /&gt;&lt;h2 id=&#34;生命周期&#34;&gt;生命周期&lt;/h2&gt;
 &lt;p&gt;每个 Vue 组件实例 在 创建时 都需要经理一系列的初始化步骤，比如 设置好 数据侦听、编译模板、挂载实例到DOM，在这个过程中 它 也会运行被称为 生命周期 钩子的函数，让开发者有机会 在 特定阶段 运行自己的代码。&lt;/p&gt;
 &lt;h3 id=&#34;注册周期钩子&#34;&gt;注册周期钩子&lt;/h3&gt;
 &lt;p&gt;举例来说，&lt;code&gt;mounted&lt;/code&gt; 钩子 可以 在组件 完成初始渲染 并 创建DOM  节点后 运行代码：&lt;/p&gt;
@@ -569,10 +569,10 @@
 &lt;p&gt;所有 生命周期 钩子函数 的 &lt;code&gt;this&lt;/code&gt; 上下文 都会 自动指向 当前调用它的组件实例。【避免使用箭头函数定义生命周期钩子】&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;生命周期图示&#34;&gt;生命周期图示&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-4/img/vue-life-cycle.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-4/img/vue-life-cycle.jpg&#34;
 	width=&#34;1376&#34;
 	height=&#34;1998&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-4/img/vue-life-cycle_hub0294d1285c620a95cf5fb86778acfcf_93198_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-4/img/vue-life-cycle_hub0294d1285c620a95cf5fb86778acfcf_93198_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-4/img/vue-life-cycle_hub0294d1285c620a95cf5fb86778acfcf_93198_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-4/img/vue-life-cycle_hub0294d1285c620a95cf5fb86778acfcf_93198_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Life-Cycle&#34;
@@ -682,10 +682,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;span&lt;/span&gt;&amp;gt;{{ profile.name }} 今年 {{ profile.age }} 岁!&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;span&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-program.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-program.jpg&#34;
 	width=&#34;882&#34;
 	height=&#34;414&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-program_hu57ad98a71e5be989308155f119ffea81_21160_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-4/img/vue-watch-program_hu57ad98a71e5be989308155f119ffea81_21160_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-program_hu57ad98a71e5be989308155f119ffea81_21160_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-4/img/vue-watch-program_hu57ad98a71e5be989308155f119ffea81_21160_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Watch Program&#34;
@@ -726,10 +726,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        获取最新并修改结果：&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;v-model&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;&amp;#34;immediate&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-immediate.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-immediate.jpg&#34;
 	width=&#34;1375&#34;
 	height=&#34;802&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-immediate_hua2d91eca9e67f5c53626dc8cea11de02_21983_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-4/img/vue-watch-immediate_hua2d91eca9e67f5c53626dc8cea11de02_21983_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-immediate_hua2d91eca9e67f5c53626dc8cea11de02_21983_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-4/img/vue-watch-immediate_hua2d91eca9e67f5c53626dc8cea11de02_21983_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Watch Immediate&#34;
@@ -764,10 +764,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        一个月只能修改一次的昵称：&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;v-model&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;&amp;#34;nickname&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-once.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-once.jpg&#34;
 	width=&#34;1407&#34;
 	height=&#34;749&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-once_hu9989b70b4caf2984cb7360ef636e835e_21777_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-4/img/vue-watch-once_hu9989b70b4caf2984cb7360ef636e835e_21777_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-once_hu9989b70b4caf2984cb7360ef636e835e_21777_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-4/img/vue-watch-once_hu9989b70b4caf2984cb7360ef636e835e_21777_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Watch Once&#34;
@@ -824,10 +824,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#ff5c57&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#57c7ff&#34;&gt;click&lt;/span&gt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;&amp;#34;changeMessge&amp;#34;&lt;/span&gt; &amp;gt;Test Time Tick&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;button&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-timetick.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-timetick.jpg&#34;
 	width=&#34;1453&#34;
 	height=&#34;818&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-timetick_hu10dd88b99b9a7731015e1c7b21e421da_27710_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-4/img/vue-watch-timetick_hu10dd88b99b9a7731015e1c7b21e421da_27710_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-timetick_hu10dd88b99b9a7731015e1c7b21e421da_27710_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-4/img/vue-watch-timetick_hu10dd88b99b9a7731015e1c7b21e421da_27710_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Watch TimeTick&#34;
@@ -884,10 +884,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;p&lt;/span&gt;&amp;gt; {{ answer }} &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;p&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-creator.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-creator.jpg&#34;
 	width=&#34;1465&#34;
 	height=&#34;813&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-4/img/vue-watch-creator_hu8a72ef8db37b1ba6b090628e6de29ff8_25098_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-4/img/vue-watch-creator_hu8a72ef8db37b1ba6b090628e6de29ff8_25098_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-4/img/vue-watch-creator_hu8a72ef8db37b1ba6b090628e6de29ff8_25098_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-4/img/vue-watch-creator_hu8a72ef8db37b1ba6b090628e6de29ff8_25098_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Watch Creator&#34;
@@ -941,11 +941,11 @@
         </item>
         <item>
         <title>Vue基础（三）</title>
-        <link>http://www.shentongtong.cn/vue-3/</link>
+        <link>https://teair.github.io/site/vue-3/</link>
         <pubDate>Mon, 27 May 2024 12:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/vue-3/</guid>
-        <description>&lt;img src="http://www.shentongtong.cn/vue-3/img/logo/vue.png" alt="Featured image of post Vue基础（三）" /&gt;&lt;h2 id=&#34;事件处理&#34;&gt;事件处理&lt;/h2&gt;
+        <guid>https://teair.github.io/site/vue-3/</guid>
+        <description>&lt;img src="https://teair.github.io/site/vue-3/img/logo/vue.png" alt="Featured image of post Vue基础（三）" /&gt;&lt;h2 id=&#34;事件处理&#34;&gt;事件处理&lt;/h2&gt;
 &lt;h3 id=&#34;监听事件&#34;&gt;监听事件&lt;/h3&gt;
 &lt;p&gt;语法：通过 &lt;code&gt;v-on&lt;/code&gt; 指令 或 &lt;code&gt;@&lt;/code&gt; 符号 来 监听 DOM 事件，并在事件触发时 执行对应的 vue&lt;/p&gt;
 &lt;p&gt;事件处理器 的 值：&lt;/p&gt;
@@ -1273,10 +1273,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-3/img/v-model-checkbox.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-3/img/v-model-checkbox.jpg&#34;
 	width=&#34;671&#34;
 	height=&#34;307&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-3/img/v-model-checkbox_huc048143c5a9e66b978787b8d155f4a15_8681_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-3/img/v-model-checkbox_huc048143c5a9e66b978787b8d155f4a15_8681_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-3/img/v-model-checkbox_huc048143c5a9e66b978787b8d155f4a15_8681_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-3/img/v-model-checkbox_huc048143c5a9e66b978787b8d155f4a15_8681_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-model Checkbox&#34;
@@ -1340,10 +1340,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-3/img/v-model-select.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-3/img/v-model-select.jpg&#34;
 	width=&#34;787&#34;
 	height=&#34;520&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-3/img/v-model-select_huabad1364ac726cc81e119920de979947_15448_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-3/img/v-model-select_huabad1364ac726cc81e119920de979947_15448_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-3/img/v-model-select_huabad1364ac726cc81e119920de979947_15448_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-3/img/v-model-select_huabad1364ac726cc81e119920de979947_15448_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-model select&#34;
@@ -1400,10 +1400,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-3/img/v-model-checkbox-duoxuan.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-3/img/v-model-checkbox-duoxuan.jpg&#34;
 	width=&#34;852&#34;
 	height=&#34;524&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-3/img/v-model-checkbox-duoxuan_hu0f5eed4403fc5fc3da04d5cdf7a57d9d_25566_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-3/img/v-model-checkbox-duoxuan_hu0f5eed4403fc5fc3da04d5cdf7a57d9d_25566_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-3/img/v-model-checkbox-duoxuan_hu0f5eed4403fc5fc3da04d5cdf7a57d9d_25566_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-3/img/v-model-checkbox-duoxuan_hu0f5eed4403fc5fc3da04d5cdf7a57d9d_25566_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-model multiply&#34;
@@ -1426,11 +1426,11 @@
         </item>
         <item>
         <title>Vue基础（二）</title>
-        <link>http://www.shentongtong.cn/vue-2/</link>
+        <link>https://teair.github.io/site/vue-2/</link>
         <pubDate>Mon, 27 May 2024 11:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/vue-2/</guid>
-        <description>&lt;img src="http://www.shentongtong.cn/vue-2/img/logo/vue.png" alt="Featured image of post Vue基础（二）" /&gt;&lt;h2 id=&#34;计算属性&#34;&gt;计算属性&lt;/h2&gt;
+        <guid>https://teair.github.io/site/vue-2/</guid>
+        <description>&lt;img src="https://teair.github.io/site/vue-2/img/logo/vue.png" alt="Featured image of post Vue基础（二）" /&gt;&lt;h2 id=&#34;计算属性&#34;&gt;计算属性&lt;/h2&gt;
 &lt;h3 id=&#34;基础示例&#34;&gt;基础示例&lt;/h3&gt;
 &lt;p&gt;计算属性 是为了 解决 在模板中 书写 比较复杂逻辑 的 问题&lt;/p&gt;
 &lt;p&gt;例如：&lt;/p&gt;
@@ -1499,10 +1499,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#ff6ac1&#34;&gt;@click&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;=&amp;#34;debounceClick()&amp;#34;&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#57c7ff&#34;&gt;修改计算属性的值&lt;/span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;button&lt;/span&gt;&amp;gt; &lt;span style=&#34;color:#ff5c57&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;默认计算属性是&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;只读&lt;/span&gt; &lt;span style=&#34;color:#57c7ff&#34;&gt;的&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/computed_get_set.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/computed_get_set.jpg&#34;
 	width=&#34;441&#34;
 	height=&#34;129&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/computed_get_set_huc00e5b6e76914f5c2723d05c9522cfb9_4099_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/computed_get_set_huc00e5b6e76914f5c2723d05c9522cfb9_4099_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/computed_get_set_huc00e5b6e76914f5c2723d05c9522cfb9_4099_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/computed_get_set_huc00e5b6e76914f5c2723d05c9522cfb9_4099_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Computed Get Set&#34;
@@ -1664,10 +1664,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {{ sonItem.id }} - {{ sonItem.name }}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;li&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;ul&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for.jpg&#34;
 	width=&#34;427&#34;
 	height=&#34;150&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for_hu1ce1d179a8a1e16eb43bc0b5a0730739_4488_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/list-v-for_hu1ce1d179a8a1e16eb43bc0b5a0730739_4488_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for_hu1ce1d179a8a1e16eb43bc0b5a0730739_4488_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/list-v-for_hu1ce1d179a8a1e16eb43bc0b5a0730739_4488_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-for&#34;
@@ -1696,10 +1696,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {{ index }} -- {{ key }} -- {{ value }}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;li&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;ul&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-object.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-object.jpg&#34;
 	width=&#34;466&#34;
 	height=&#34;134&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-object_hu750253cedaacbaef4760748414216319_7054_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/list-v-for-object_hu750253cedaacbaef4760748414216319_7054_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-object_hu750253cedaacbaef4760748414216319_7054_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/list-v-for-object_hu750253cedaacbaef4760748414216319_7054_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-for-object&#34;
@@ -1732,10 +1732,10 @@
 &lt;h3 id=&#34;v-for-之-key-的使用&#34;&gt;v-for 之 key 的使用&lt;/h3&gt;
 &lt;p&gt;总的来说， vue 在 渲染元素列表时 采用的是 &amp;ldquo;就地更新&amp;rdquo; 策略，而 key 属性 是 提示 vue 每一个节点的唯一标识，这样在渲染的时候能最大限度的提高效率。&lt;/p&gt;
 &lt;p&gt;关于什么是 就地更新 策略：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-update.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-update.jpg&#34;
 	width=&#34;1154&#34;
 	height=&#34;598&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-update_hud523c6724f7d252b16101bd77bd4b7f7_128301_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/list-v-for-update_hud523c6724f7d252b16101bd77bd4b7f7_128301_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-update_hud523c6724f7d252b16101bd77bd4b7f7_128301_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/list-v-for-update_hud523c6724f7d252b16101bd77bd4b7f7_128301_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-for 就地更新策略&#34;
@@ -1838,10 +1838,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;li&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-template.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-template.jpg&#34;
 	width=&#34;735&#34;
 	height=&#34;344&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-template_hud42264411df5811c24f2b0bbde9f5e41_10646_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/list-v-for-template_hud42264411df5811c24f2b0bbde9f5e41_10646_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-template_hud42264411df5811c24f2b0bbde9f5e41_10646_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/list-v-for-template_hud42264411df5811c24f2b0bbde9f5e41_10646_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-for template&#34;
@@ -1955,10 +1955,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;ul&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;div&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;template&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-sort.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-sort.jpg&#34;
 	width=&#34;1352&#34;
 	height=&#34;205&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-sort_hu89f4fff74fabf2ba78e5b28bafd224f0_11523_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/list-v-for-sort_hu89f4fff74fabf2ba78e5b28bafd224f0_11523_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-sort_hu89f4fff74fabf2ba78e5b28bafd224f0_11523_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/list-v-for-sort_hu89f4fff74fabf2ba78e5b28bafd224f0_11523_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-for 排序&#34;
@@ -1969,10 +1969,10 @@
 		data-flex-basis=&#34;1582px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-sort-copy.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-sort-copy.jpg&#34;
 	width=&#34;1313&#34;
 	height=&#34;205&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-2/img/list-v-for-sort-copy_huc0805ed57722df3b4523a85b90e1e32d_11376_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-2/img/list-v-for-sort-copy_huc0805ed57722df3b4523a85b90e1e32d_11376_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-2/img/list-v-for-sort-copy_huc0805ed57722df3b4523a85b90e1e32d_11376_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-2/img/list-v-for-sort-copy_huc0805ed57722df3b4523a85b90e1e32d_11376_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;v-for 拷贝排序&#34;
@@ -1991,11 +1991,11 @@
         </item>
         <item>
         <title>Vue基础（一）</title>
-        <link>http://www.shentongtong.cn/vue-1/</link>
+        <link>https://teair.github.io/site/vue-1/</link>
         <pubDate>Mon, 27 May 2024 10:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/vue-1/</guid>
-        <description>&lt;img src="http://www.shentongtong.cn/vue-1/img/logo/vue.png" alt="Featured image of post Vue基础（一）" /&gt;&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+        <guid>https://teair.github.io/site/vue-1/</guid>
+        <description>&lt;img src="https://teair.github.io/site/vue-1/img/logo/vue.png" alt="Featured image of post Vue基础（一）" /&gt;&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cn.vuejs.org/guide/introduction.html&#34;  title=&#34;Vue&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Vue&lt;/a&gt; 发音为 /vjuː/，类似 view 是一款用于构建用户界面的 vue 框架。&lt;/p&gt;
@@ -2175,10 +2175,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#78787e&#34;&gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;p&lt;/span&gt;&amp;gt;Using text interpolation&lt;span style=&#34;color:#ff6ac1&#34;&gt;:&lt;/span&gt; {{ rawHtml }}&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;p&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;p&lt;/span&gt;&amp;gt;Using v&lt;span style=&#34;color:#ff6ac1&#34;&gt;-&lt;/span&gt;html directive&lt;span style=&#34;color:#ff6ac1&#34;&gt;:&lt;/span&gt; &amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#ff6ac1&#34;&gt;v-html&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;=&amp;#34;rawHtml&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;p&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;渲染结果：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-1/img/vue_rawhtml.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-1/img/vue_rawhtml.jpg&#34;
 	width=&#34;953&#34;
 	height=&#34;129&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-1/img/vue_rawhtml_huc1ed572057c842cbe95b31a0f73516d4_12146_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-1/img/vue_rawhtml_huc1ed572057c842cbe95b31a0f73516d4_12146_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-1/img/vue_rawhtml_huc1ed572057c842cbe95b31a0f73516d4_12146_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-1/img/vue_rawhtml_huc1ed572057c842cbe95b31a0f73516d4_12146_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue RawHtml&#34;
@@ -2322,10 +2322,10 @@
 &lt;h3 id=&#34;修饰符&#34;&gt;修饰符&lt;/h3&gt;
 &lt;p&gt;修饰符 是 以 . 开头的特殊后缀，表明指令需要以一些特殊的方式被绑定。例如 .prevent 修饰符会告知 v-on 指令对触发的事件调用 event.preventDefault()：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-vue&#34; data-lang=&#34;vue&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#ff6ac1&#34;&gt;form&lt;/span&gt; &lt;span style=&#34;color:#ff6ac1&#34;&gt;@submit.prevent&lt;/span&gt;&lt;span style=&#34;color:#5af78e&#34;&gt;=&amp;#34;onSubmit&amp;#34;&lt;/span&gt;&amp;gt;...&amp;lt;/&lt;span style=&#34;color:#ff6ac1&#34;&gt;form&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://www.shentongtong.cn/vue-1/img/vue_template_prevent.jpg&#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://teair.github.io/site/site/vue-1/img/vue_template_prevent.jpg&#34;
 	width=&#34;979&#34;
 	height=&#34;351&#34;
-	srcset=&#34;http://www.shentongtong.cn/vue-1/img/vue_template_prevent_hufee3dcc7591142821ee8f67f26724e0c_41567_480x0_resize_q100_mitchellnetravali.jpg 480w, http://www.shentongtong.cn/vue-1/img/vue_template_prevent_hufee3dcc7591142821ee8f67f26724e0c_41567_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
+	srcset=&#34;https://teair.github.io/site/site/vue-1/img/vue_template_prevent_hufee3dcc7591142821ee8f67f26724e0c_41567_480x0_resize_q100_mitchellnetravali.jpg 480w, https://teair.github.io/site/site/vue-1/img/vue_template_prevent_hufee3dcc7591142821ee8f67f26724e0c_41567_1024x0_resize_q100_mitchellnetravali.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vue Prevent&#34;

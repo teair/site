@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on </title>
-        <link>http://www.shentongtong.cn/categories/</link>
+        <link>https://teair.github.io/site/categories/</link>
         <description>Recent content in Categories on </description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 27 May 2024 16:30:00 +0800</lastBuildDate><atom:link href="http://www.shentongtong.cn/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 27 May 2024 16:30:00 +0800</lastBuildDate><atom:link href="https://teair.github.io/site/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Technology</title>
-        <link>http://www.shentongtong.cn/categories/technology/</link>
+        <link>https://teair.github.io/site/categories/technology/</link>
         <pubDate>Mon, 27 May 2024 16:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/categories/technology/</guid>
+        <guid>https://teair.github.io/site/categories/technology/</guid>
         <description></description>
         </item>
         <item>
         <title>Vue</title>
-        <link>http://www.shentongtong.cn/categories/vue/</link>
+        <link>https://teair.github.io/site/categories/vue/</link>
         <pubDate>Mon, 27 May 2024 16:30:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/categories/vue/</guid>
+        <guid>https://teair.github.io/site/categories/vue/</guid>
         <description></description>
         </item>
         <item>
         <title>Home</title>
-        <link>http://www.shentongtong.cn/categories/home/</link>
+        <link>https://teair.github.io/site/categories/home/</link>
         <pubDate>Mon, 04 Sep 2023 16:00:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/categories/home/</guid>
+        <guid>https://teair.github.io/site/categories/home/</guid>
         <description></description>
         </item>
         <item>
         <title>Essay</title>
-        <link>http://www.shentongtong.cn/categories/essay/</link>
+        <link>https://teair.github.io/site/categories/essay/</link>
         <pubDate>Tue, 25 Jul 2023 14:00:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/categories/essay/</guid>
+        <guid>https://teair.github.io/site/categories/essay/</guid>
         <description></description>
         </item>
         <item>
         <title>ThinkPHP</title>
-        <link>http://www.shentongtong.cn/categories/thinkphp/</link>
+        <link>https://teair.github.io/site/categories/thinkphp/</link>
         <pubDate>Sun, 28 Aug 2022 20:00:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/categories/thinkphp/</guid>
+        <guid>https://teair.github.io/site/categories/thinkphp/</guid>
         <description></description>
         </item>
         <item>
         <title>Golang</title>
-        <link>http://www.shentongtong.cn/categories/golang/</link>
+        <link>https://teair.github.io/site/categories/golang/</link>
         <pubDate>Fri, 22 Apr 2022 16:00:00 +0800</pubDate>
         
-        <guid>http://www.shentongtong.cn/categories/golang/</guid>
+        <guid>https://teair.github.io/site/categories/golang/</guid>
         <description></description>
         </item>
         
